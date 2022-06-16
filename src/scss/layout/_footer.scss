@@ -1,6 +1,7 @@
 .footer{
     background-color: $colorDark;
     color: $colorBlue;
+    height: 60vh;
 }
 
 .footer-title{
@@ -11,19 +12,16 @@
     padding-top: 56px;
     display: grid;
     justify-content: center;
-    text-align: left;
 }
 
 .footer-second-nav{
     display: grid;
     justify-content: center;
-    text-align: left;
 }
 
 .footer-third-nav{
     display: grid;
     justify-content: center;
-    text-align: left;
 }
 
 .footer-list{
@@ -42,10 +40,9 @@
 
 .arrow{
     color: $colorGray;
-    position: relative;
-    left: 350px;
-    bottom: 30px;
-
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
 }
 .fa-solid .fa-arrow-up{
     width: 24px;
