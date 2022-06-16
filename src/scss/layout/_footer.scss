@@ -1,0 +1,52 @@
+.footer{
+    background-color: $colorDark;
+    color: $colorBlue;
+}
+
+.footer-title{
+    padding-bottom: 12px;
+}
+
+.footer-first-nav{
+    padding-top: 56px;
+    display: grid;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-second-nav{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-third-nav{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-list{
+    display: grid;
+    width: 150px;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+.footer-icons{
+    width: 24px;
+    height: 26px;
+    display: inline-block;
+}
+
+.arrow{
+    color: $colorGray;
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+
+}
+.fa-solid .fa-arrow-up{
+    width: 24px;
+}
