@@ -1,7 +1,61 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+.section-hero{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero{
+  width: 100%;
+}
+
+.hero-text{
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+}
+.small-title{
+  margin: 41px 47px 27px 47px;
+  text-align: center;
+}
+span{
+  text-transform: uppercase;
+}
+
+.text-div{
+  padding: 10px 103px 36px 103px;
+}
+
+.section-first{
+  background-color: $colorGray;
+  color: $colorDark;
+  display: grid;
+  text-align: center;
+}
+
+.section-second {
+  background-color: $colorOrange;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  }
+.section-third{
+  background-color: $colorGray;
+  text-align: center;
+  }
+
+
+.icon{
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  text-align: center;
+
 }
