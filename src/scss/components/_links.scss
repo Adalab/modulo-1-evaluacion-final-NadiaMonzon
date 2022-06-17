@@ -12,6 +12,23 @@ a{
   background-color: $colorDark;
   color: $colorGray;
   font-weight: 600;
+  &__top{
+    width: 230px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: $colorDark;
+    color: $colorGray;
+    font-weight: 600;
+    font-size: 16px;
+    @media all and (min-width: 900px){
+      margin-left: 150px;
+    }
+    @media all and (min-width: 1200px){
+      margin-left: 280px;
+    }
+
+  }
   
 }
 
