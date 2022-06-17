@@ -14,17 +14,10 @@
   margin-top: 55px;
   margin-left: 40px;
   padding: 5px;
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1728px){
     display: none;
   }
 }
-
-// .logo-container{
-//   width: 100%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
 
 .logo{
   width: 213px;
@@ -45,11 +38,13 @@
 
 .header__nav--desktop{
   display: none;
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1728px){
+    color: $colorDark;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 30px;
+
   }
   
 
@@ -66,7 +61,7 @@
     align-items: flex-start;
 
   }
-  @media all and (min-width: 1300px){
+  @media all and (min-width: 1728px){
     background-position: center;
   }
 }
@@ -81,7 +76,7 @@
     height: 112px;
     margin-left: 147px;
   }
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1728px){
     margin-left: 280px;
   }
 }

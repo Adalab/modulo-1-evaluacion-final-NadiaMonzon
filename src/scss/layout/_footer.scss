@@ -2,16 +2,23 @@
     width: 100vw;
     background-color: $colorDark;
     color: $colorBlue;
-    height: 60vh;
+    height: 50vh;
     @media all and (min-width: 900px){
-        height: 35vh;
+        height: 40vh;
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         gap: 10%;
+        
     }
 }
 
 .footer-title{
     padding-bottom: 12px;
+    @media all and (min-width: 900px){
+        font-size: 24px;
+        font-weight: 600;
+    }
 }
 
 .footer-first-nav{
@@ -21,7 +28,8 @@
     align-items: center;
     @media all and (min-width: 900px){
         width: 210px;
-        padding: 71px 10px 74px 118px
+        padding: 71px 10px 74px 118px;
+
     }
 }
 
@@ -32,6 +40,7 @@
     @media all and (min-width: 900px){
         width: 210px;
         padding: 71px 10px 74px 10px;
+        transform: translateY(-10px);
     }
 }
 
@@ -42,6 +51,7 @@
     @media all and (min-width: 900px){
         width: 210px;
         padding: 71px 118px 74px 10px;
+        transform: translateY(-15px);
     }
 
 }
