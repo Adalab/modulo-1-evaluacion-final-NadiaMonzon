@@ -1,29 +1,85 @@
 .header{
-  margin-top: 19px;
-  width: 100vw;
-  height: 20vh;
-  position: fixed;
-}
-.header__nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.header__nav--desktop{
-      display: none;
-    }
-
-.fa-solid .fa-bars .fa-xl{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
-  justify-content: start;
+  flex-direction: column;
+}
+
+// .header-div{
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
+//   gap: 200px;
+// }
+
+#menu-burger{
+  width: 24px;
+  position: fixed;
+  margin-top: 55px;
+  margin-left: 40px;
+  padding: 5px;
+  @media all and (min-width: 1200px){
+    display: none;
+  }
 }
 
 .logo{
   width: 213px;
   height: 101px;
+  margin-left: 35vw;
+  margin-top: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
+
+}
+
+.header__nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.header__nav--desktop{
+  display: none;
+  @media all and (min-width: 1200px){
+    display: flex;
+  }
+
+}
+.section-hero{
+  display: flex;
+  flex-direction: column;
+  margin-top: 350px;
+  align-items: center;
+  gap: 62px ;
+  @media all and (min-width: 900px){
+    background-position: right;
+    gap: 12px;
+    align-items: flex-start;
+
+  }
+  @media all and (min-width: 1300px){
+    background-position: center;
+  }
+}
+
+.title{
+  color: $colorDark;
+  font-size: 24px;
+  font-weight: 600;
+  @media all and (min-width: 900px){
+    font-size: 36px;
+    width: 430px;
+    height: 112px;
+    margin-left: 147px;
+  }
+  @media all and (min-width: 1200px){
+    margin-left: 280px;
+  }
 }
