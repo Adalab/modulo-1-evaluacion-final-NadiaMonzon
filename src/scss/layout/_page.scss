@@ -6,6 +6,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  @media all and (min-width: 900px){
+    background-position: right;
+  }
 }
 
 
@@ -26,6 +29,10 @@
 .small-title{
   margin: 41px 47px 27px 47px;
   text-align: center;
+  @media all and (min-width: 900px){
+    margin: 41px 196px 10px 169px;
+    grid-column: span 3;
+  }
 }
 span{
   text-transform: uppercase;
@@ -34,8 +41,13 @@ span{
 .section-first{
   background-color: $colorGray;
   color: $colorDark;
+  width: 100vw;
   display: grid;
   text-align: center;
+  @media all and (min-width: 900px){
+    height: 55vh;
+    grid-template-columns: 33% 34% 33%;
+  }
 }
 
 .section-second {
@@ -50,7 +62,7 @@ span{
   color: $colorDark;
   text-align: center;
   height: 40vh;
-  padding: 87px 27px 140px 27px
+  padding: 87px 27px 140px 27px;
   }
 
   .text-div{
@@ -83,4 +95,8 @@ span{
   height: 40vh;
   background-image: url(../images/creando-espacios.jpg);
   background-size: cover;
+  @media all and (min-width: 900px){
+    height: 50vh;
+    background-position: center;
+  }
 }
