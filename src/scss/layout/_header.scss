@@ -1,13 +1,29 @@
 .header{
   margin-top: 19px;
   width: 100vw;
-  display: flex;
-  justify-content: center;
+  height: 20vh;
   position: fixed;
-  &__nav{
-    justify-content: flex-start;
-    &--desktop{
+}
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.header__nav--desktop{
       display: none;
     }
-  }  
+
+.fa-solid .fa-bars .fa-xl{
+  display: flex;
+  justify-content: start;
+}
+
+.logo{
+  width: 213px;
+  height: 101px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
