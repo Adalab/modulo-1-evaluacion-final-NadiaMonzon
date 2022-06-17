@@ -8,13 +8,6 @@
   flex-direction: column;
 }
 
-// .header-div{
-//   display: flex;
-//   justify-content: flex-start;
-//   align-items: center;
-//   gap: 200px;
-// }
-
 #menu-burger{
   width: 24px;
   position: fixed;
@@ -26,22 +19,27 @@
   }
 }
 
+// .logo-container{
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
 .logo{
   width: 213px;
   height: 101px;
-  margin-left: 35vw;
-  margin-top: 19px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
 }
 
 .header__nav{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  margin-top: 19px;
+  @media all and (min-width: 900px){
+  margin-top: 39px;
+  }
 
 }
 
@@ -49,7 +47,11 @@
   display: none;
   @media all and (min-width: 1200px){
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
   }
+  
 
 }
 .section-hero{
