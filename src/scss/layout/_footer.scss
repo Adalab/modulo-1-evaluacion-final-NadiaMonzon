@@ -1,11 +1,13 @@
 .footer{
     width: 100vw;
-    background-color: $colorDark;
-    color: $colorBlue;
-    height: 50vh;
+    background-color: $colorOrange;
+    color: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
     @media all and (min-width: 900px){
         height: 40vh;
-        display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         gap: 10%;
@@ -22,10 +24,11 @@
 }
 
 .footer-first-nav{
-    padding-top: 56px;
+    padding-top: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    order: 2;
     @media all and (min-width: 900px){
         width: 210px;
         padding: 71px 10px 74px 118px;
@@ -34,9 +37,11 @@
 }
 
 .footer-second-nav{ 
+    padding-top: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    order: 3;
     @media all and (min-width: 900px){
         width: 210px;
         padding: 71px 10px 74px 10px;
@@ -45,13 +50,16 @@
 }
 
 .footer-third-nav{
+    padding-top: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    order: 1;
     @media all and (min-width: 900px){
         width: 210px;
         padding: 71px 118px 74px 10px;
         transform: translateY(-15px);
+        color: red;
     }
 
 }
